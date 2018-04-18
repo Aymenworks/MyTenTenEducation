@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyTenTenEducation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BQq-t3-9dZ">
+                                <rect key="frame" x="0.0" y="20" width="768" height="677"/>
+                                <subviews>
+                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="t5M-qT-osD">
+                                        <rect key="frame" x="517.5" y="20" width="230.5" height="565"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="mL1-zp-cFI">
+                                            <size key="itemSize" width="50" height="50"/>
+                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        </collectionViewFlowLayout>
+                                        <cells>
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="lEA-DY-WOw">
+                                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </view>
+                                            </collectionViewCell>
+                                        </cells>
+                                        <connections>
+                                            <outlet property="dataSource" destination="BYZ-38-t0r" id="fwm-OM-eZf"/>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="kqn-Us-JIg"/>
+                                        </connections>
+                                    </collectionView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="suspicious" translatesAutoresizingMaskIntoConstraints="NO" id="GUV-dc-o3P">
+                                        <rect key="frame" x="40" y="40" width="437.5" height="338.5"/>
+                                    </imageView>
+                                    <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tCd-od-B2m" customClass="RoundedButton" customModule="MyTenTenEducation" customModuleProvider="target">
+                                        <rect key="frame" x="169" y="408.5" width="180" height="54"/>
+                                        <color key="backgroundColor" red="0.21960784310000001" green="0.56078431370000004" blue="0.32156862749999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="180" id="J0t-f5-aFA"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
+                                        <state key="normal" title="EXECUTE">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="execute:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mwt-EW-rlp"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AZh-9g-CH3">
+                                        <rect key="frame" x="100" y="625" width="568" height="2"/>
+                                        <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2" id="hyR-cI-IN6"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fip-TE-R0g" customClass="RoundedButton" customModule="MyTenTenEducation" customModuleProvider="target">
+                                        <rect key="frame" x="168.5" y="492.5" width="180" height="54"/>
+                                        <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="180" id="c47-PA-Liu"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
+                                        <state key="normal" title="CLEAR">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="clearInstructions:" destination="BYZ-38-t0r" eventType="touchUpInside" id="290-Pr-yjc"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="GUV-dc-o3P" firstAttribute="top" secondItem="BQq-t3-9dZ" secondAttribute="top" constant="40" id="0Ha-zm-Khz"/>
+                                    <constraint firstItem="t5M-qT-osD" firstAttribute="leading" secondItem="GUV-dc-o3P" secondAttribute="trailing" constant="40" id="10M-5B-hfb"/>
+                                    <constraint firstItem="tCd-od-B2m" firstAttribute="top" secondItem="GUV-dc-o3P" secondAttribute="bottom" constant="30" id="8fr-8L-WzD"/>
+                                    <constraint firstItem="fip-TE-R0g" firstAttribute="leading" secondItem="tCd-od-B2m" secondAttribute="leading" id="AU1-pY-XbR"/>
+                                    <constraint firstItem="GUV-dc-o3P" firstAttribute="leading" secondItem="BQq-t3-9dZ" secondAttribute="leading" constant="40" id="DWP-5R-Fws"/>
+                                    <constraint firstAttribute="bottom" secondItem="AZh-9g-CH3" secondAttribute="bottom" constant="50" id="Kne-XR-0EH"/>
+                                    <constraint firstItem="fip-TE-R0g" firstAttribute="trailing" secondItem="tCd-od-B2m" secondAttribute="trailing" id="MoP-NY-Qoa"/>
+                                    <constraint firstItem="GUV-dc-o3P" firstAttribute="leading" secondItem="BQq-t3-9dZ" secondAttribute="leading" constant="40" id="QmV-HG-5xJ"/>
+                                    <constraint firstItem="t5M-qT-osD" firstAttribute="width" secondItem="BQq-t3-9dZ" secondAttribute="width" multiplier="0.3" id="akG-hc-gXm"/>
+                                    <constraint firstItem="GUV-dc-o3P" firstAttribute="height" secondItem="BQq-t3-9dZ" secondAttribute="height" multiplier="0.5" id="azn-1N-kgu"/>
+                                    <constraint firstItem="AZh-9g-CH3" firstAttribute="top" secondItem="t5M-qT-osD" secondAttribute="bottom" constant="40" id="hGS-x3-47f"/>
+                                    <constraint firstItem="tCd-od-B2m" firstAttribute="centerX" secondItem="GUV-dc-o3P" secondAttribute="centerX" id="hab-ui-VWQ"/>
+                                    <constraint firstItem="AZh-9g-CH3" firstAttribute="leading" secondItem="BQq-t3-9dZ" secondAttribute="leading" constant="100" id="loR-js-R5M"/>
+                                    <constraint firstItem="fip-TE-R0g" firstAttribute="top" secondItem="tCd-od-B2m" secondAttribute="bottom" constant="30" id="qQj-tj-7eZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="t5M-qT-osD" secondAttribute="trailing" constant="20" id="qh9-Te-j4P"/>
+                                    <constraint firstItem="t5M-qT-osD" firstAttribute="top" secondItem="BQq-t3-9dZ" secondAttribute="top" constant="20" id="tXM-U9-bB3"/>
+                                    <constraint firstAttribute="trailing" secondItem="AZh-9g-CH3" secondAttribute="trailing" constant="100" id="vsB-PM-KeZ"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MZm-c2-MXg">
+                                <rect key="frame" x="0.0" y="697" width="768" height="307"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="4jT-qL-jHc">
+                                        <rect key="frame" x="20" y="0.0" width="728" height="287"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="6Dt-7U-ccW">
+                                                <rect key="frame" x="0.0" y="0.0" width="728" height="133.5"/>
+                                                <subviews>
+                                                    <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ogU-DB-wWK" customClass="RoundedButton" customModule="MyTenTenEducation" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="167" height="133.5"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
+                                                        <state key="normal" title="MULT">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="addInstruction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wrp-57-F6z"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rlu-a9-3fp" customClass="RoundedButton" customModule="MyTenTenEducation" customModuleProvider="target">
+                                                        <rect key="frame" x="187" y="0.0" width="167" height="133.5"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
+                                                        <state key="normal" title="PUSH">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="addInstruction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gm2-37-14B"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oks-O5-O0i" customClass="RoundedButton" customModule="MyTenTenEducation" customModuleProvider="target">
+                                                        <rect key="frame" x="374" y="0.0" width="167" height="133.5"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
+                                                        <state key="normal" title="CALL">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="addInstruction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lt1-L6-GBz"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FLb-vz-ATJ" customClass="RoundedButton" customModule="MyTenTenEducation" customModuleProvider="target">
+                                                        <rect key="frame" x="561" y="0.0" width="167" height="133.5"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
+                                                        <state key="normal" title="PRINT">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="addInstruction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZXr-4s-fh8"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="zHA-aZ-sO7">
+                                                <rect key="frame" x="0.0" y="153.5" width="728" height="133.5"/>
+                                                <subviews>
+                                                    <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dmb-db-yWg" customClass="RoundedButton" customModule="MyTenTenEducation" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="354" height="133.5"/>
+                                                        <color key="backgroundColor" red="0.92549019610000005" green="0.72941176470000002" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
+                                                        <state key="normal" title="FUNCTION">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="addInstruction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xnV-2P-2dP"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJq-oq-ANt">
+                                                        <rect key="frame" x="374" y="0.0" width="354" height="133.5"/>
+                                                        <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.37345377600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
+                                                        <state key="normal" title="RET">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="addInstruction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M5p-QV-U7k"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="4jT-qL-jHc" firstAttribute="top" secondItem="MZm-c2-MXg" secondAttribute="top" id="FRj-OJ-nzk"/>
+                                    <constraint firstAttribute="trailing" secondItem="4jT-qL-jHc" secondAttribute="trailing" constant="20" id="Ju8-hb-kWO"/>
+                                    <constraint firstItem="4jT-qL-jHc" firstAttribute="leading" secondItem="MZm-c2-MXg" secondAttribute="leading" constant="20" id="UA0-Tj-EPF"/>
+                                    <constraint firstAttribute="bottom" secondItem="4jT-qL-jHc" secondAttribute="bottom" constant="20" id="azm-UC-AFA"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="BQq-t3-9dZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Krt-8u-jVw"/>
+                            <constraint firstItem="BQq-t3-9dZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="TFk-8Q-7TP"/>
+                            <constraint firstItem="MZm-c2-MXg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Wif-Ce-s4C"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BQq-t3-9dZ" secondAttribute="trailing" id="X63-Qr-vhy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MZm-c2-MXg" secondAttribute="trailing" id="jTL-Wo-Cqa"/>
+                            <constraint firstItem="MZm-c2-MXg" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.3" id="nEu-rA-OoR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="MZm-c2-MXg" secondAttribute="bottom" constant="20" id="wXd-8I-NeV"/>
+                            <constraint firstItem="MZm-c2-MXg" firstAttribute="top" secondItem="BQq-t3-9dZ" secondAttribute="bottom" id="zMs-Bb-4Am"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="instructionsCollectionView" destination="t5M-qT-osD" id="D5B-9d-9KQ"/>
+                        <outlet property="smileyImageView" destination="GUV-dc-o3P" id="T9O-3P-Gct"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="suspicious" width="512" height="504"/>
+    </resources>
+</document>

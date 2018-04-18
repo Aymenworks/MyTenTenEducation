@@ -11,7 +11,16 @@
 		5AF080E820871EBB0024BCD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF080E720871EBB0024BCD2 /* ViewController.swift */; };
 		5AF080EB20871EBB0024BCD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF080E920871EBB0024BCD2 /* Main.storyboard */; };
 		5AF080ED20871EBC0024BCD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AF080EC20871EBC0024BCD2 /* Assets.xcassets */; };
-		5AF080F020871EBC0024BCD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF080EE20871EBC0024BCD2 /* LaunchScreen.storyboard */; };
+		5AF080FD208734370024BCD2 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF080FC208734370024BCD2 /* RoundedButton.swift */; };
+		5AF080FF2087374B0024BCD2 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF080FE2087374B0024BCD2 /* HomeViewModel.swift */; };
+		5AF08101208737A30024BCD2 /* InstructionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF08100208737A30024BCD2 /* InstructionCollectionViewCell.swift */; };
+		5AF08103208738F60024BCD2 /* InstructionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AF08102208738F60024BCD2 /* InstructionCollectionViewCell.xib */; };
+		5AF0810720873A370024BCD2 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF0810620873A370024BCD2 /* RxCocoa.framework */; };
+		5AF0810920873A390024BCD2 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF0810820873A390024BCD2 /* RxSwift.framework */; };
+		5AF0810B20873A3C0024BCD2 /* Spring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF0810A20873A3C0024BCD2 /* Spring.framework */; };
+		5AF0810D20873A470024BCD2 /* RxGesture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF0810C20873A470024BCD2 /* RxGesture.framework */; };
+		A5106CF72087665D006D6E21 /* Instruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5106CF62087665D006D6E21 /* Instruction.swift */; };
+		A5106CF92087AA33006D6E21 /* SimulatorError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5106CF82087AA33006D6E21 /* SimulatorError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,8 +29,17 @@
 		5AF080E720871EBB0024BCD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5AF080EA20871EBB0024BCD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5AF080EC20871EBC0024BCD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5AF080EF20871EBC0024BCD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AF080F120871EBC0024BCD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AF080FC208734370024BCD2 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		5AF080FE2087374B0024BCD2 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		5AF08100208737A30024BCD2 /* InstructionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionCollectionViewCell.swift; sourceTree = "<group>"; };
+		5AF08102208738F60024BCD2 /* InstructionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InstructionCollectionViewCell.xib; sourceTree = "<group>"; };
+		5AF0810620873A370024BCD2 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		5AF0810820873A390024BCD2 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		5AF0810A20873A3C0024BCD2 /* Spring.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Spring.framework; path = Carthage/Build/iOS/Spring.framework; sourceTree = "<group>"; };
+		5AF0810C20873A470024BCD2 /* RxGesture.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxGesture.framework; path = Carthage/Build/iOS/RxGesture.framework; sourceTree = "<group>"; };
+		A5106CF62087665D006D6E21 /* Instruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instruction.swift; sourceTree = "<group>"; };
+		A5106CF82087AA33006D6E21 /* SimulatorError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AF0810D20873A470024BCD2 /* RxGesture.framework in Frameworks */,
+				5AF0810720873A370024BCD2 /* RxCocoa.framework in Frameworks */,
+				5AF0810920873A390024BCD2 /* RxSwift.framework in Frameworks */,
+				5AF0810B20873A3C0024BCD2 /* Spring.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +62,7 @@
 			children = (
 				5AF080E420871EBB0024BCD2 /* MyTenTenEducation */,
 				5AF080E320871EBB0024BCD2 /* Products */,
+				5AF0810520873A370024BCD2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +78,69 @@
 			isa = PBXGroup;
 			children = (
 				5AF080E520871EBB0024BCD2 /* AppDelegate.swift */,
-				5AF080E720871EBB0024BCD2 /* ViewController.swift */,
-				5AF080E920871EBB0024BCD2 /* Main.storyboard */,
-				5AF080EC20871EBC0024BCD2 /* Assets.xcassets */,
-				5AF080EE20871EBC0024BCD2 /* LaunchScreen.storyboard */,
-				5AF080F120871EBC0024BCD2 /* Info.plist */,
+				A5106CF52087651E006D6E21 /* Model */,
+				5AF080FB20872CFE0024BCD2 /* View */,
+				5AF080FA20872CEA0024BCD2 /* ViewModel */,
+				5AF080F820872CDF0024BCD2 /* Controller */,
+				5AF080F720872CC60024BCD2 /* Resources */,
 			);
 			path = MyTenTenEducation;
+			sourceTree = "<group>";
+		};
+		5AF080F720872CC60024BCD2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5AF080F120871EBC0024BCD2 /* Info.plist */,
+				5AF080EC20871EBC0024BCD2 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5AF080F820872CDF0024BCD2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5AF080E720871EBB0024BCD2 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5AF080FA20872CEA0024BCD2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5AF080FE2087374B0024BCD2 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5AF080FB20872CFE0024BCD2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5AF080E920871EBB0024BCD2 /* Main.storyboard */,
+				5AF080FC208734370024BCD2 /* RoundedButton.swift */,
+				5AF08100208737A30024BCD2 /* InstructionCollectionViewCell.swift */,
+				5AF08102208738F60024BCD2 /* InstructionCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5AF0810520873A370024BCD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AF0810C20873A470024BCD2 /* RxGesture.framework */,
+				5AF0810A20873A3C0024BCD2 /* Spring.framework */,
+				5AF0810820873A390024BCD2 /* RxSwift.framework */,
+				5AF0810620873A370024BCD2 /* RxCocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5106CF52087651E006D6E21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A5106CF62087665D006D6E21 /* Instruction.swift */,
+				A5106CF82087AA33006D6E21 /* SimulatorError.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +153,7 @@
 				5AF080DE20871EBB0024BCD2 /* Sources */,
 				5AF080DF20871EBB0024BCD2 /* Frameworks */,
 				5AF080E020871EBB0024BCD2 /* Resources */,
+				5AF08104208739C40024BCD2 /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -122,7 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AF080F020871EBC0024BCD2 /* LaunchScreen.storyboard in Resources */,
+				5AF08103208738F60024BCD2 /* InstructionCollectionViewCell.xib in Resources */,
 				5AF080ED20871EBC0024BCD2 /* Assets.xcassets in Resources */,
 				5AF080EB20871EBB0024BCD2 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +210,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5AF08104208739C40024BCD2 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxGesture.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Spring.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5AF080DE20871EBB0024BCD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5106CF92087AA33006D6E21 /* SimulatorError.swift in Sources */,
+				A5106CF72087665D006D6E21 /* Instruction.swift in Sources */,
+				5AF08101208737A30024BCD2 /* InstructionCollectionViewCell.swift in Sources */,
 				5AF080E820871EBB0024BCD2 /* ViewController.swift in Sources */,
+				5AF080FD208734370024BCD2 /* RoundedButton.swift in Sources */,
 				5AF080E620871EBB0024BCD2 /* AppDelegate.swift in Sources */,
+				5AF080FF2087374B0024BCD2 /* HomeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,14 +255,6 @@
 				5AF080EA20871EBB0024BCD2 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5AF080EE20871EBC0024BCD2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5AF080EF20871EBC0024BCD2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -281,7 +379,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MyTenTenEducation/Info.plist;
+				DEVELOPMENT_TEAM = D7C48J3S5N;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/MyTenTenEducation/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -289,7 +392,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = aymenworks.MyTenTenEducation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -298,7 +401,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MyTenTenEducation/Info.plist;
+				DEVELOPMENT_TEAM = D7C48J3S5N;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/MyTenTenEducation/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +414,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = aymenworks.MyTenTenEducation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
